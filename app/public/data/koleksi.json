@@ -1,10 +1,98 @@
 [
   {
-    "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "id": "11",
+    "judul": "Anggrek Bulan",
+    "kategori": "Tanaman Hias",
+    "namaLatin": "Phalaenopsis amabilis",
+    "frekuensiSiram": "1-2 kali seminggu",
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "12",
+    "judul": "Mawar",
+    "kategori": "Tanaman Hias",
+    "namaLatin": "Rosa sp.",
+    "frekuensiSiram": "3-4 kali seminggu",
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "13",
+    "judul": "Lidah Buaya",
+    "kategori": "Tanaman Hias",
+    "namaLatin": "Aloe vera",
+    "frekuensiSiram": "sekali seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "21",
+    "judul": "Bayam",
+    "kategori": "Sayuran",
+    "namaLatin": "Amaranthus hybridus",
+    "frekuensiSiram": "5-7 kali seminggu",
+    "kebutuhanCahaya": "teduh"
+  },
+  {
+    "id": "22",
+    "judul": "Bawang Merah",
+    "kategori": "Sayuran",
+    "namaLatin": "Allium cepa",
+    "frekuensiSiram": "3-4 kali seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "23",
+    "judul": "Jahe",
+    "kategori": "Sayuran",
+    "namaLatin": "Zingiber officinale",
+    "frekuensiSiram": "2-3 kali seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "31",
+    "judul": "Mangga",
+    "kategori": "Tanaman Buah",
+    "namaLatin": "Mangifera indica",
+    "frekuensiSiram": "1-2 kali seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "32",
+    "judul": "Pisang",
+    "kategori": "Tanaman Buah",
+    "namaLatin": "Musa paradisiaca",
+    "frekuensiSiram": "3-4 kali seminggu",
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "33",
+    "judul": "Rambutan",
+    "kategori": "Tanaman Buah",
+    "namaLatin": "Nephelium lappaceum",
+    "frekuensiSiram": "1-2 kali seminggu",
+    "kebutuhanCahaya": "sedang"
+  },
+  {
+    "id": "41",
+    "judul": "Padi",
+    "kategori": "Tanaman Keras",
+    "namaLatin": "Oryza sativa",
+    "frekuensiSiram": "Lahan Tergenang",
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "42",
+    "judul": "Kelapa",
+    "kategori": "Tanaman Keras",
+    "namaLatin": "Cocos nucifera",
+    "frekuensiSiram": "0-1 kali seminggu",
+    "kebutuhanCahaya": "penuh"
+  },
+  {
+    "id": "43",
+    "judul": "Jati",
+    "kategori": "Tanaman Keras",
+    "namaLatin": "Tectona grandis",
+    "frekuensiSiram": "0-1 kali seminggu",
+    "kebutuhanCahaya": "sedang"
   }
 ]
