@@ -1,0 +1,14 @@
+.hero2 {
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.hero2 h1 {
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+}
+
+.hero2 h1 span {
+    color: var(--primary);
+}

@@ -1,3 +1,9 @@
+.kerangka {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -68,12 +74,68 @@ footer {
     font-size: small;
 }
 
+.daftar-kartu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.kartu {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #63a98f;
+    text-align: center;
+}
+
+.kartu h3 a {
+    margin: 0 0 0.25rem;
+    font-size: 1.05rem;
+    color: var(--bg);
+    text-decoration: none;
+}
+
+.kartu h3:hover {
+    color: var(--bg);
+}
+
+.kartu h3::after {
+    content: '';
+    display: block;
+    padding-bottom: 0.2rem;
+    border-bottom: 0.3rem solid var(--bg);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+.kartu h3:hover::after {
+    transform: scaleX(0.5);
+}
+
+.kartu p {
+    margin: 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.alat-koleksi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.alat-koleksi input, .alat-koleksi select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    font: inherit;
+}
+
 /* Laptop */
 @media (max-width: 1366px) {
     html {
         font-size: 75%;
     }
-
 }
 
 /* Tablet */
