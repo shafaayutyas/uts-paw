@@ -1,31 +1,37 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import './Layout.css'
 
-const MENU = [
-    { ke: '/', label: 'Beranda'},
-    { ke: '/koleksi', label: 'Koleksi'},
-    { ke: '/tambah', label: 'Tambah'},
-    { ke: '/statistik', label: 'Statistik'},
-    { ke: '/tentang', label: 'Tentang'},
-]
-
 export default function Layout() {
     return (
         <div className="kerangka">
             <header className="kepala">
-                <strong>Daftar Tugas</strong>
-                <nav className="menu">
-                    {MENU.map(({ke, label}) => (
-                        <NavLink key={ke} to={ke} end={ke === '/'}>
-                            {label}
+                <nav className="navbar">
+                <a href="#" className="navbar-logo">Green<span>home</span>.</a>
+                    <div className="navbar-nav">
+                        <NavLink to="/" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                        Beranda
                         </NavLink>
-                    ))}
+                        <NavLink to="/koleksi" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                        Koleksi
+                        </NavLink>
+                        <NavLink to="/tambah" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                        Tambah
+                        </NavLink>
+                        <NavLink to="/statistik" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                        Statistik
+                        </NavLink>
+                        <NavLink to="/tentang" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                        Tentang
+                        </NavLink>
+                    </div>  
                 </nav>
             </header>
             <main className="isi">
                 <Outlet />
             </main>
-            <footer className='kaki'>Ujian Tengah Semester Pengembangan Aplikasi Web</footer>
+            <footer>
+                <a className="footer-text">Shafa Ayutyas Dewi | 124140168 | RB | UTS-PAW</a>
+            </footer>
         </div>
     )
 }

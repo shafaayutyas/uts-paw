@@ -7,7 +7,7 @@ export default function useLocalStorage(kunci, nilaiAwal) {
     })
 
     useEffect(() => {
-        if (nilai == null) localStorage.removeItem(kunci)
+        if (nilai === null) localStorage.removeItem(kunci)
         else localStorage.setItem(kunci, JSON.stringify(nilai))
     }, [kunci, nilai])
 
