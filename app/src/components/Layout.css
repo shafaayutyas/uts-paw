@@ -1,7 +1,3 @@
-.isi {
-    padding-top: 80px;
-    padding-left: 20px;
-}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -83,7 +79,7 @@ footer {
 /* Tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 62.5%;
+        font-size: 60.5%;
     }
     .navbar {
         display: flex;
