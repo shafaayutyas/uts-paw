@@ -131,6 +131,13 @@ footer {
     font: inherit;
 }
 
+.aksi {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
 /* Laptop */
 @media (max-width: 1366px) {
     html {
