@@ -62,20 +62,19 @@ Penilaian akhir selalu memakai `grader/` dan `shared/` versi repo induk, jadi me
 
 Ganti seluruh isi berkas ini dengan dokumentasi aplikasimu (butir rubrik A4). Kerangka berikut boleh dipakai:
 
-```markdown
-# Nama Aplikasi
+# Koleksi Tanaman GreenHome - UTS PAW
 
-Nama: ...
-NIM: ...
-Kelas: ...
-Tema: ...
-Deployment: https://USERNAME.github.io/uts-paw/
+Nama: SHAFA AYUTYAS DEWI
+NIM: 124140168
+Kelas: RB
+Tema: Koleksi Tanaman Hias
+Deployment: https://shafaayutyas.github.io/uts-paw/
 
-![Tangkapan layar beranda](docs/beranda.png)
+![Tangkapan layar beranda](docs/Beranda.png)
 
 ## Fitur
 
-- ...
+- 
 
 ## Menjalankan secara lokal
 

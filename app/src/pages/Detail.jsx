@@ -1,6 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import '../styles/Detail.css'
+import IlustrasiKategori from '../components/IlustrasiKategori.jsx'
 
 export default function Detail() {
     const { id } = useParams()
@@ -18,13 +19,6 @@ export default function Detail() {
                 <Link to="/koleksi">Lihat Koleksi Kembali</Link>
            </section> 
         )
-    }
-
-    const ilustrasi = {
-        'Tanaman Hias': 'download (1.1).jpg',
-        'Tanaman Buah': 'download (2).jpg',
-        'Tanaman Keras': 'download (3).jpg',
-        'Sayuran': 'download (4).jpg'
     }
 
     const konfirmasiHapus = () => {
@@ -57,10 +51,7 @@ export default function Detail() {
                     </button>
                 </div>
                 <div className='ilustrasi'>
-                    <img 
-                    src={`${import.meta.env.BASE_URL}images/${ilustrasi[item.kategori]}`} 
-                    alt={item.kategori}
-                    />
+                    <IlustrasiKategori itemKategori={item.kategori} />
                 </div>
             </div>
         </section>

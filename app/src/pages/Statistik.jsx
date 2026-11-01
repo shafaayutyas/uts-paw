@@ -1,5 +1,6 @@
 import useKoleksi from '../hooks/useKoleksi.js'
 import '../styles/Statistik.css'
+import KeteranganStatistik from '../components/KeteranganStatistik.jsx'
 
 export default function Statistik() {
     const { items } = useKoleksi()
@@ -33,12 +34,7 @@ export default function Statistik() {
                     </tfoot>
                 </table>
             </div>
-            <div className='keterangan-statistik'>
-                <h3>Keterangan statistik</h3>
-                <p>Saat ini terdapat {items.length} koleksi tanaman di kebun kami</p>
-                <p>Kami memiliki koleksi tanaman hias, tanaman rumput, sayuran dan juga buah-buahan</p>
-                <p>Mari hijaukan bumi dengan reboisasi🌱</p>
-            </div>
+            <KeteranganStatistik banyakKoleksi={items.length} />
             </div>
         </section>
     )
