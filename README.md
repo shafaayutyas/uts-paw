@@ -71,10 +71,19 @@ Tema: Koleksi Tanaman Hias
 Deployment: https://shafaayutyas.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/Beranda.png)
+![Tangkapan layar beranda](docs/koleksi.png)
+![Tangkapan layar beranda](docs/detail.png)
+![Tangkapan layar beranda](docs/tambah.png)
+![Tangkapan layar beranda](docs/statistik.png)
+![Tangkapan layar beranda](docs/404.png)
 
 ## Fitur
 
-- 
+- Ringkasan dari data: Menampilkan jumlah item dan jumlah kategori, dihitung dari data yang sama dengan halaman koleksi. 
+- Manajemen koleksi tanaman: Menampilkan seluruh koleksi dalam grid, memfilter pencarian koleksi dan meleihat detail koleksi melalui tautan ke `/koleksi/${id}`, menghapus serta menambah koleksi.
+- Detail Koleksi: Menampilkan semua field tentang tanaman yang dipilih dan menampilkan ilustrasi dari kategori yang sesuai.
+- Konfirmasi hapus koleksi: window.confirm menampilkan dialog OK/Batal untuk persetujuan user. Bila OK, item dihapus dari data /Koleksi.
+- Implementasi statistik: Halaman /Statistik menampilkan jumlah item per kategori, total keseluruhan dan keterangan statistik.
 
 ## Menjalankan secara lokal
 
@@ -84,5 +93,10 @@ npm run dev
 
 ## Konsep React yang dipakai
 
-- ...
-```
+- Komponen fungsional dengan props src/componens
+- useState dan useEffect
+- Context API: createContext, provider, dan useContext
+- React Router: NavLink/Link, useParams, 404, dan useNavigate
+- Costum hook pada src/hooks/
+- CSS dan Semantik: website responsif dan menggunakan HTML5
+
