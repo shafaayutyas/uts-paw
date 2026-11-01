@@ -1,0 +1,32 @@
+#tentang {
+    padding: 8rem 7% 1.4rem;
+}
+
+.tentang h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.tentang dl {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.3rem 1rem;
+    font-size: 18px;
+    margin-top: 1rem;
+    background-color: var(--primary);
+    border-radius: 6px;
+}
+
+.tentang dt {
+    
+    font-weight: 600;
+    
+}
+
+.tentang dd {
+    margin: 0;
+}
+
+.tentang p {
+    font-size: 15px;
+}
