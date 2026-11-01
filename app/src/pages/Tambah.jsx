@@ -32,7 +32,7 @@ export default function Tambah() {
             {galat && <p role="alert">{galat}</p>}
 
             <label htmlFor="kategori">Kategori</label>
-            <select id="kategori" name="kategori" value={form.kategori} onChage={ubah}>
+            <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
                 <option>Tanaman Hias</option>
                 <option>Tanaman Keras</option>
                 <option>Tanaman Buah</option>
@@ -46,7 +46,7 @@ export default function Tambah() {
             <input id="frekuensiSiram" name="frekuensiSiram" type="text" value={form.frekuensiSiram} onChange={ubah} />
 
             <label htmlFor="kebutuhanCahaya">Kebutuhan Cahaya</label>
-            <select id="kebutuhanCahaya" name="kebutuhanCahaya" value={form.kebutuhanCahaya} onChage={ubah}>
+            <select id="kebutuhanCahaya" name="kebutuhanCahaya" value={form.kebutuhanCahaya} onChange={ubah}>
                 <option>penuh</option>
                 <option>teduh</option>
                 <option>sedang</option>

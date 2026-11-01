@@ -6,7 +6,7 @@ export default function Layout() {
         <div className="kerangka">
             <header className="kepala">
                 <nav className="navbar">
-                <a href="#" className="navbar-logo">Green<span>home</span>.</a>
+                <a href="#" className="navbar-logo">Green<span>house</span>.</a>
                     <div className="navbar-nav">
                         <NavLink to="/" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
                         Beranda

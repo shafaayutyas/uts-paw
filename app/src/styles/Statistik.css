@@ -1,0 +1,79 @@
+.statistik {
+    padding: 8rem 7% 1.4rem;
+}
+
+.statistik h2 {
+    text-align: center;
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+    color: var(--primary);
+}
+
+.row {
+    display: flex;
+}
+
+.keterangan-statistik {
+    flex: 1 1 35rem;
+    padding: 0 1rem;
+}
+
+.keterangan-statistik h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.statistik p {
+    margin-bottom: 0.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.tabel-gulir {
+    flex: 1 1 45rem;
+    margin-top: 2rem;
+}
+
+.tabel-data {
+    width: 100%;
+    max-width: 480px;
+    border-collapse: collapse;
+}
+
+.tabel-data th, .tabel-data td {
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #000000;
+    text-align: center;
+    width: 100rem;
+    color: hsl(0, 0%, 0%);
+}
+
+.tabel-data thead th {
+    background: var(--primary);
+    border: 2px solid #000000;
+}
+
+.tabel-data tbody {
+    background: #fefdfd;
+    border: 2px solid #000000;
+}
+
+.tabel-data td:last-child, .tabel-data th:last-child {
+    text-align: center;
+}
+
+.tabel-data tfoot th, .tabel-data tfoot td {
+    border: 2px solid #000000;
+    font-weight: 600;
+    background-color: aqua;
+} 
+
+@media (max-width: 480) {
+    .tabel-data th,
+    .tabel-data td {
+        padding: 0.4rem 0.5rem;
+    }
+}
